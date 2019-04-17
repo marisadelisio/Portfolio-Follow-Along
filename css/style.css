@@ -1,6 +1,8 @@
 * {
   font-size:18px;
 }
+
+/* Header Styles */
 header {
   display:flex;
 }
@@ -18,3 +20,21 @@ header {
   flex:1;
   text-align:right;
 }
+/*end of Header style */
+
+/* Main content style */
+main {
+  min-height:200px;
+  border:1px solid black;
+}
+
+/* End of Main content style */
+
+/* footer styles */
+footer {
+  text-align:center;
+  /* background-image:url('../images/tye dye.png'); */
+}
+
+
+/* end of footer styles */
