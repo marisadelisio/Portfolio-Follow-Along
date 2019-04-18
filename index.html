@@ -4,6 +4,7 @@
     <title>Sample Portfolio Home Page</title>
     <meta name="viewport" content="width=device=width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   </head>
 
   <body>
@@ -16,9 +17,16 @@
       <div class="name">
         Marisa DeLisio
       </div>
+      <nav onclick='$(.menu).toggle();'>
       <div class="navButton">
         &#9776;
       </div>
+      <ul class="menu">
+        <li>home</li>
+        <li>gallery</li>
+        <li>resume</li>
+      </ul>
+      </nav>
     </header>
 
     <main>
@@ -37,7 +45,7 @@
         facebook instagram linkedIn
       </div>
       <div class="contact">
-        <a href="mailto:15madelisio@gmail.com">Contact me</a>
+        <a href="contact.html">Contact Me</a>
       </div>
     </footer>
 
