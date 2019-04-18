@@ -11,6 +11,10 @@ header {
   flex:1;
 }
 
+.logoImage img {
+  width: 100%;
+}
+
 .name {
   flex-grow:8;
   text-align:center;
@@ -44,7 +48,15 @@ nav:hover ul {
 /* Main content style */
 main {
   min-height:200px;
-  border:1px solid black;
+  /*border:1px solid black;*/
+}
+
+.profileImage{
+  text-align:center;
+}
+.profileImage img {
+  width:80%;
+  border-radius: 50%;
 }
 
 /* End of Main content style */
