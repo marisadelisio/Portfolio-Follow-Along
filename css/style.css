@@ -1,11 +1,12 @@
-* {
+/* {
   font-size:18px;
-
-}
+}*/
 
 /* Header Styles */
 header {
   display:flex;
+  font-size:30px;
+  font-style: italic;
 }
 
 .logo {
@@ -62,6 +63,7 @@ main {
 
 .aboutme {
   color:purple;
+  font-size: 18px;
 }
 /* End of Main content style */
 
