@@ -1,13 +1,11 @@
 * {
   font-size:18px;
 
-  font-family: sans-serif:"Arial";
 }
 
 /* Header Styles */
 header {
   display:flex;
-  font-size:30px;
 }
 
 .logo {
@@ -62,6 +60,9 @@ main {
   border-radius: 50%;
 }
 
+.aboutme {
+  color:purple;
+}
 /* End of Main content style */
 
 /* footer styles */
@@ -95,6 +96,9 @@ footer {
 
   .aboutme {
     flex:1;
+  }
+  footer {
+    display:flex;
   }
   .copy, .socialMedia, .contact {
     flex:1;
